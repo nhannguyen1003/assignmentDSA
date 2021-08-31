@@ -41,11 +41,15 @@ class LinkedList{
     {
         return spn;
     }
+    void modifiedScope(string str);
     Node* getHead();
     void setHead(Node* head);
+    bool push(Node* node);
+    bool pop();
 };
 
 
 bool isValidLine(LinkedList* LL,string s);
-
+bool Assign(LinkedList* LL, string name, string value);
+int LookUp(LinkedList* LL,string name);
 #endif
